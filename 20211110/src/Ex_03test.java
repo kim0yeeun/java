@@ -27,6 +27,11 @@ public class Ex_03test {
 		// 메서드 내에서 this키워드를 사용할 수 없다. 
 		
 		System.out.println(result);
+		
+		Ex_03 test;
+		test=ex031;
+		test.first = 500;
+		System.out.println(ex031.first);
 	}
 
 }
